@@ -7,9 +7,9 @@
 <div class="js-canvas canvas">
     <a href="javascript:;" class="js-canvas-overlay canvas__overlay"></a>
     <div class="js-stories canvas__inner">
-    
+
         {{!-- PLACE YOUR DEVELOPMENT STORIES HERE --}}
-            {{!-- stories/complete/council-spending --}}
+            {{ stories/complete/train-data }}
         {{!-- END DEVELOPMENT STORIES --}}
 
         {{#if currentCanvas}}
@@ -21,7 +21,7 @@
         {{else}}
             <p>Sorry we couldn't load this canvas. Please try another from the Gallery.
         {{/if}}
-         
+
         {{#ui/generic-element action="showAddAStory" tagName="div" classes=""}}
             <div id="AddStory" class="ember-view js-story story -w1 -h1 story--add">
                 <div class="js-add-story story__inner">
